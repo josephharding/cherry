@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3287F1A7201CCCE80037968D /* myFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3287F1A6201CCCE80037968D /* myFile.txt */; };
 		32C60567200C05950041C058 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C60566200C05950041C058 /* AppDelegate.m */; };
-		32C6056A200C05950041C058 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C60569200C05950041C058 /* ViewController.m */; };
+		32C6056A200C05950041C058 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 32C60569200C05950041C058 /* ViewController.mm */; };
 		32C6056D200C05950041C058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C6056B200C05950041C058 /* Main.storyboard */; };
 		32C6056F200C05950041C058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C6056E200C05950041C058 /* Assets.xcassets */; };
-		32C60572200C05950041C058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C60570200C05950041C058 /* LaunchScreen.storyboard */; };
-		32C60575200C05950041C058 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C60574200C05950041C058 /* main.m */; };
+		32DACC83201CE1B7003FF97A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C60574200C05950041C058 /* main.m */; };
+		32DACCAB201CE8D1003FF97A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DACCAA201CE8D1003FF97A /* UIKit.framework */; };
+		32DACCAD201CE8E7003FF97A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DACCAC201CE8E6003FF97A /* GLKit.framework */; };
+		32DACCAF201CE8FD003FF97A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DACCAE201CE8FD003FF97A /* OpenGLES.framework */; };
+		32DACCB0201CE9C2003FF97A /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3287F1A3201CC6740037968D /* game.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3287F1A2201CC6740037968D /* game.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = game.h; sourceTree = "<group>"; };
+		3287F1A3201CC6740037968D /* game.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		3287F1A5201CC6AA0037968D /* glwrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glwrapper.h; sourceTree = "<group>"; };
+		3287F1A6201CCCE80037968D /* myFile.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = myFile.txt; sourceTree = "<group>"; };
 		32C60562200C05950041C058 /* cherry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cherry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C60565200C05950041C058 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		32C60566200C05950041C058 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32C60566200C05950041C058 /* AppDelegate.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = AppDelegate.m; sourceTree = "<group>"; };
 		32C60568200C05950041C058 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		32C60569200C05950041C058 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32C60569200C05950041C058 /* ViewController.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		32C6056C200C05950041C058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32C6056E200C05950041C058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		32C60571200C05950041C058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32C60573200C05950041C058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32C60574200C05950041C058 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32C60574200C05950041C058 /* main.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = main.m; sourceTree = "<group>"; };
+		32DACCAA201CE8D1003FF97A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32DACCAC201CE8E6003FF97A /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		32DACCAE201CE8FD003FF97A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32DACCAF201CE8FD003FF97A /* OpenGLES.framework in Frameworks */,
+				32DACCAD201CE8E7003FF97A /* GLKit.framework in Frameworks */,
+				32DACCAB201CE8D1003FF97A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +57,7 @@
 			children = (
 				32C60564200C05950041C058 /* cherry */,
 				32C60563200C05950041C058 /* Products */,
+				32DACCA9201CE8D1003FF97A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,14 +75,27 @@
 				32C60565200C05950041C058 /* AppDelegate.h */,
 				32C60566200C05950041C058 /* AppDelegate.m */,
 				32C60568200C05950041C058 /* ViewController.h */,
-				32C60569200C05950041C058 /* ViewController.m */,
+				32C60569200C05950041C058 /* ViewController.mm */,
 				32C6056B200C05950041C058 /* Main.storyboard */,
 				32C6056E200C05950041C058 /* Assets.xcassets */,
-				32C60570200C05950041C058 /* LaunchScreen.storyboard */,
+				3287F1A6201CCCE80037968D /* myFile.txt */,
 				32C60573200C05950041C058 /* Info.plist */,
 				32C60574200C05950041C058 /* main.m */,
+				3287F1A2201CC6740037968D /* game.h */,
+				3287F1A3201CC6740037968D /* game.cpp */,
+				3287F1A5201CC6AA0037968D /* glwrapper.h */,
 			);
 			path = cherry;
+			sourceTree = "<group>";
+		};
+		32DACCA9201CE8D1003FF97A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32DACCAE201CE8FD003FF97A /* OpenGLES.framework */,
+				32DACCAC201CE8E6003FF97A /* GLKit.framework */,
+				32DACCAA201CE8D1003FF97A /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,9 +156,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32C60572200C05950041C058 /* LaunchScreen.storyboard in Resources */,
 				32C6056F200C05950041C058 /* Assets.xcassets in Resources */,
 				32C6056D200C05950041C058 /* Main.storyboard in Resources */,
+				3287F1A7201CCCE80037968D /* myFile.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +169,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32C6056A200C05950041C058 /* ViewController.m in Sources */,
-				32C60575200C05950041C058 /* main.m in Sources */,
+				32DACCB0201CE9C2003FF97A /* game.cpp in Sources */,
+				32DACC83201CE1B7003FF97A /* main.m in Sources */,
+				32C6056A200C05950041C058 /* ViewController.mm in Sources */,
 				32C60567200C05950041C058 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,14 +185,6 @@
 				32C6056C200C05950041C058 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		32C60570200C05950041C058 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32C60571200C05950041C058 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
